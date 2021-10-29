@@ -1,0 +1,21 @@
+.work {
+    background-color: darkorange;
+    min-height: 100vh;
+}
+
+.workTitle {
+    background-color: white;
+}
+
+.workBlock {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.workButton {
+    border-radius: 50px;
+    height: 40px;
+    width: 65px;
+    margin: 50px;
+}

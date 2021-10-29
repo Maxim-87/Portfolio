@@ -1,0 +1,27 @@
+.footer {
+    background-color: deepskyblue;
+    min-height: 100vh;
+}
+
+.footerTitle {
+    background-color: blanchedalmond;
+}
+
+.footerContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.iconsBlock {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.icons {
+    height: 200px;
+    width: 200px;
+    background-color: blanchedalmond;
+    margin: 20px;
+}

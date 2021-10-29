@@ -1,0 +1,23 @@
+.contacts {
+    background-color: rgba(163,158,255,1);
+    min-height: 100vh;
+}
+
+.contactsTitle {
+    background-color: blanchedalmond;
+}
+
+.contactsBlock {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.buttonContacts {
+    margin: 25px;
+}
