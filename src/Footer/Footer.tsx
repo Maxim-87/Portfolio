@@ -14,7 +14,7 @@ export const Footer = () => {
                     <div className={style.icons}></div>
                 </div>
 
-                <h3> Все права защищены </h3>
+                <h4 className={style.runningTitle}> Все права защищены </h4>
             </div>
         </div>
     )
