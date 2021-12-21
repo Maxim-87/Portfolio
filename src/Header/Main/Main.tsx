@@ -1,5 +1,5 @@
 import React from 'react';
-import style from './Main.module.css';
+import style from './Main.module.scss';
 import styleContainer from '../../common/styles/Container.module.css'
 
 export function Main() {
@@ -11,8 +11,7 @@ export function Main() {
                     <h1> I am MAXIM PECHYONKIN </h1>
                     <p> Frontend developer </p>
                 </div>
-
-                <div className={style.photo}></div>
+                <div className={style.photo}> </div>
             </div>
 
         </div>

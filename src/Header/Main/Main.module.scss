@@ -1,0 +1,29 @@
+@import '../../common/styles/sass/variables.scss';
+
+.mainBlock {
+  min-height: 100vh;
+  background-color: $bgColor;
+
+  .container {
+    border: 1px solid;
+    height: 100%;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    .greet {
+      width: 420px;
+      /*background-color: #252527;*/
+      color: $textColor;
+    }
+  }
+  .photo {
+    width: 420px;
+    height: 400px;
+    background-color: $bgTitle;
+  }
+}
+
+

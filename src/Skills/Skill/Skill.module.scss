@@ -1,0 +1,17 @@
+@import '../../common/styles/sass/variables.scss';
+
+.skill {
+  width: 250px;
+  background-color: $bgSecondColor;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: $textColor;
+  .icon {
+    height: 60px;
+    width: 60px;
+    background-color: $bgHref;
+  }
+}
+

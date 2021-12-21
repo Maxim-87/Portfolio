@@ -1,11 +1,11 @@
 @import '../../common/styles/sass/variables.scss';
 .project {
-    width: 400px;
+    width: 500px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-    background-color: #252527;
+    background-color: $bgSecondColor;
     min-height: 500px;
     .imgProject {
         display: flex;
@@ -21,7 +21,7 @@
         &::before {
             position: absolute;
             content: '';
-            background-color: #1f1f20;
+            background-color: $bgColor;
             top: 0;
             bottom: 0;
             left: 0;
@@ -30,11 +30,13 @@
         }
 
         .href {
-            background-color: rgba(172,178,222,1);
+            background-color: $bgHref;
             position: relative;
         }
     }
     .projectInfo {
+        margin-left: 25px;
+        width: 100%;
         padding: 25px 20px;
         .projectTitle {
             font-family: 'Josefin Sans', sans-serif;
@@ -42,10 +44,10 @@
             letter-spacing: 1px;
             margin: 0 0 5px;
             line-height: 1.2;
-            color: #fff;
+            color: $textColor;
         }
         .description {
-            color: #fff;
+            color: $textColor;
             font-family: 'Poppins', sans-serif;
             line-height: 1.8;
             font-weight: 400;

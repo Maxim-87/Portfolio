@@ -1,0 +1,26 @@
+@import '.././common/styles/sass/variables.scss';
+.contacts {
+    background-color: $bgColor;
+    min-height: 100vh;
+.contactsBlock {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    .contactsTitle {
+        color: #fff;
+    }
+    .form {
+        display: flex;
+        flex-direction: column;
+    }
+    .buttonContacts {
+        margin: 25px;
+    }
+}
+}
+
+
+
+
+
+

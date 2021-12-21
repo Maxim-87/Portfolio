@@ -1,7 +1,8 @@
+@import '../common/styles/sass/variables.scss';
 .projectsBlock {
-  background-color: #1f1f20;
+  background-color: $bgColor;
   min-height: 100vh;
-  padding: 100px;
+  //padding: 100px;
   .projectsContainer {
     justify-content: flex-start;
     flex-direction: column;
@@ -13,7 +14,7 @@
       justify-content: space-between;
       margin-top: 30px;
       align-items: flex-start;
-      @media screen and (max-width: 1129px) {
+      @media screen and (max-width: 1452px) {
         justify-content: center;
       }
     }

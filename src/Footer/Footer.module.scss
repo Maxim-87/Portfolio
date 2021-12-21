@@ -1,0 +1,34 @@
+@import '../common/styles/sass/variables.scss';
+
+.footer {
+  background-color: #1f1f20;
+  min-height: 100vh;
+
+  .footerContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .footerTitle {
+      color: #fff;
+    }
+
+    .iconsBlock {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+
+      .icons {
+        height: 60px;
+        width: 60px;
+        background-color: #252527;
+        margin: 20px;
+      }
+    }
+    .runningTitle {
+      color: #fff;
+    }
+  }
+}
+
+

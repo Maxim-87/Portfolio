@@ -15,11 +15,10 @@ export function Projects() {
         backgroundImage: `url(${todoImage})`
     }
 
-
     return (
         <div className={style.projectsBlock}>
             <div className={`${styleContainer.container} ${style.projectsContainer}`}>
-                <Title text={"My Projects"}/>
+                <Title text={"My Projects"} before={true}/>
                 <div className={style.projects}>
                     <Project style={social} title={'TODOLIST'} direction={'My project for business'}/>
                     <Project style={todo} title={'SOCIAL Network'} direction={'My project for communication '}/>

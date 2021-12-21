@@ -1,0 +1,13 @@
+@import '../common/styles/sass/variables.scss';
+.nav {
+    border: 1px solid $primaryColor;
+    width: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    .name {
+        color: $textColor;
+    }
+}
+
+
+

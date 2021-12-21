@@ -1,5 +1,5 @@
 import React from 'react';
-import style from './Work.module.css';
+import style from './Work.module.scss';
 import styleContainer from "../common/styles/Container.module.css";
 
 export function Work() {
