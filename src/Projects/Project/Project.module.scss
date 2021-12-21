@@ -1,0 +1,68 @@
+@import '../../common/styles/sass/variables.scss';
+.project {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #252527;
+    min-height: 500px;
+    .imgProject {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: red;
+        width: 100%;
+        height: 280px;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        position: relative;
+        &::before {
+            position: absolute;
+            content: '';
+            background-color: #1f1f20;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            opacity: 0.4;
+        }
+
+        .href {
+            background-color: rgba(172,178,222,1);
+            position: relative;
+        }
+    }
+    .projectInfo {
+        padding: 25px 20px;
+        .projectTitle {
+            font-family: 'Josefin Sans', sans-serif;
+            font-size: 16px;
+            letter-spacing: 1px;
+            margin: 0 0 5px;
+            line-height: 1.2;
+            color: #fff;
+        }
+        .description {
+            color: #fff;
+            font-family: 'Poppins', sans-serif;
+            line-height: 1.8;
+            font-weight: 400;
+            font-size: 12px;
+        }
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,6 +1,6 @@
 .mainBlock {
    min-height: 100vh;
-    background-color: rgba(246,145,159,1);
+    background-color: #1f1f20;
 }
 
 .container {
@@ -15,7 +15,8 @@
 
 .greet {
     width: 420px;
-    background-color: rgba(226,255,218,1);
+    /*background-color: #252527;*/
+    color: #fff;
 }
 
 .photo {

@@ -1,10 +1,11 @@
 .work {
-    background-color: darkorange;
+    background-color: #1f1f20;
     min-height: 100vh;
 }
 
 .workTitle {
-    background-color: white;
+    /*background-color: white;*/
+    color: #fff;
 }
 
 .workBlock {
@@ -15,7 +16,9 @@
 
 .workButton {
     border-radius: 50px;
-    height: 40px;
-    width: 65px;
+    height: 50px;
+    width: 75px;
     margin: 50px;
+    background-color: rgba(48,37,64,0.99);
+    color: #4e93e6;
 }
