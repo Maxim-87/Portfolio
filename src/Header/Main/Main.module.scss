@@ -2,26 +2,31 @@
 
 .mainBlock {
   min-height: 100vh;
-  background-color: $bgColor;
+  //background: url("src/assets/image/background.jpg");
+background-color: $bgColor;
 
   .container {
-    border: 1px solid;
+    display: flex;
+    align-items: center;
     height: 100%;
     width: 80%;
     margin: 0 auto;
+  }
+
+  .home {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    color: $textColor;
+  }
 
-    .greet {
-      width: 420px;
-      /*background-color: #252527;*/
-      color: $textColor;
-    }
+
+  .content {
+   margin-left: 100px;
   }
   .photo {
-    width: 420px;
+    width: 400px;
     height: 400px;
+    border-radius: 200px;
     background-color: $bgTitle;
   }
 }
