@@ -1,6 +1,5 @@
 import React from 'react';
 import styles from './Main.module.scss';
-import styleContainer from '../../common/styles/Container.module.css'
 import photo from '../../assets/image/photo.jpg';
 
 export function Main() {
