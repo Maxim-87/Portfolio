@@ -2,8 +2,7 @@
 
 .mainBlock {
   min-height: 100vh;
-  //background: url("src/assets/image/background.jpg");
-background-color: $bgColor;
+  background-color: $bgColor;
 
   .container {
     display: flex;
@@ -21,8 +20,9 @@ background-color: $bgColor;
 
 
   .content {
-   margin-left: 100px;
+    margin-left: 100px;
   }
+
   .photo {
     width: 400px;
     height: 400px;
